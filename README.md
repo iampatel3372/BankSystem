@@ -3,7 +3,7 @@ In  this  application,  you  require  implementing  two  C  programs,  namely  C
 * Bank_Customer:The customer  should  able  to see AVAILABLE  BALANCE  in his/her  account  and  MINI STATEMENT of his/her account.
 * Bank_Admin:The  admin  should  be  able  to  CREDIT/DEBIT  the  certain  amount  of  money  from  any Bank_Customer ACCOUNT (as we do it in a SBI single window counter.). The admin must update the respective “Customer_Account_file” by appending the new information. Handel the Customer account balance underflow cases carefully.
 * Police: The  police  should  only  be  able  to  see  the  available  balance  of  all  customers.  He  is  allowed  to view any Customers MINI STATEMENT by quoting the Customer _ID (i.e. User_ID with user_type as ‘C’).
-* Login_file entryformat:User_IDPasswordUser_Type (C/A/P)
-* Customer _Account_files entry format:Transaction_DateTransaction Type (Credit/Debit)Available Account_Balance
+* Login_file entryformat:User_ID Password User_Type (C/A/P)
+* Customer _Account_files entry format:Transaction_Date Transaction Type (Credit/Debit) Available Account_Balance
 * Implement the functionalities using proper REQUEST and RESPONSE Message formats. After each negotiation phase, the TCP connection on both sides should be closed gracefully releasing the socket resource. You should accept  the  IP  Address  and  Port  number  from  the  command  line  (Don't  use  a  hard-coded  port  number). 
 * Prototype for command line is as follows:Prototypes for Client and Server Client: <executable code><Server IP Address><Server Port number>Server: <executable code><Server Port number>
